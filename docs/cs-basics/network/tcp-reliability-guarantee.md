@@ -44,6 +44,7 @@ TCP 为全双工(Full-Duplex, FDX)通信，双方可以进行双向通信，客�
 **TCP 发送窗口结构图示**：
 
 ![TCP发送窗口结构](https://oss.javaguide.cn/github/javaguide/cs-basics/network/tcp-send-window.png)
+上方的图中 ，应该是 SND.NXT ，可能是笔误，图片写的是 SND.NEXT
 
 - **SND.WND**：发送窗口。
 - **SND.UNA**：Send Unacknowledged 指针，指向发送窗口的第一个字节。
